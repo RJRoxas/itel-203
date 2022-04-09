@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background: url(bgform.png);
+    background-size:cover;
+}
+.interface{
+    width: 350px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+    background-image: url(bgform.png);
+    text-align: center;
+    border: 5px solid rgb(188, 190, 16);
+    border-style: outset ;
+    border-width: 10px;
+}
+.interface h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.interface label[for="text"], .interface label[for="email"],.interface label[for="pass"]{
+    color:white; 
+    text-transform: uppercase;
+    align-self: auto;
+}
+.interface input[for="text"], .interface input[for="email"],.interface input[for="pass"]{
+    text-align: center;
+    background: none;
+    margin: 20px auto;
+    border: 3px solid rgba(255, 255, 255, 0.986);
+    display: block;
+    padding: 14px 90px;
+    outline: none;
+    color: white;
+    border-style: double;
+    transition: 0.2s;
+}
+.interface input[type="text"]:focus, .interface input[type="username"]:focus{
+    border-color: chocolate;
+}
+.interface button[type="submit"],.interface button[type="reset"]{
+
+    text-align: center;
+    background: none;
+    margin: 10px auto;
+    border: 3px solid white;
+    display: block;
+    padding: 12px 40px;
+    outline: none;
+    color: white;
+    border-style: double;
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.interface button[type="submit"]:hover,.interface button[type="reset"]:hover{
+    background: rgb(230, 38, 12);
+    color: black;
+    
+}
+.interface h1{
+    font-size: 1cm;
+}
+.form-input-label{
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.interface input::placeholder{
+    color: white;
+    font-size: 13px;
+}
+
+

@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background: url(bgcontent.jpg);
+    background-size:cover;
+}
+.interface{
+    width: 1000px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+    background-image: url(bg.png);
+    text-align: justify;
+    border: 5px solid rgb(188, 190, 16);
+    border-style: outset ;
+    border-width: 10px;
+}
+.interface h2{
+    color: rgb(15, 228, 210);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px auto;
+}
+.interface label{
+    color:rgb(223, 238, 87); 
+    text-transform: uppercase;
+    align-self: auto;
+}
+.interface input, .interface button{
+    text-align: justify;
+    background: none;
+    margin: auto;
+    border: 3px solid rgba(255, 255, 255, 0.986);
+    display: block;
+    padding: 14px 90px;
+    outline: none;
+    color: white;
+    border-style: double;
+    transition: 0.2s;
+}
+.interface button[type="color"]{
+    border-color: chocolate;
+    background:rgb(188, 190, 16);
+    color:rgb(0, 0, 0);
+    margin: auto;
+}
+
+.interface input::placeholder{
+    color: white;
+    font-size: 13px;
+}
